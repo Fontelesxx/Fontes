@@ -1,0 +1,22 @@
+/*pseudoclasses e pseudoelementos*/
+.surpresa{
+    background-color: rgb(255, 94, 0);
+    width: 300px;
+    padding: 30px;
+}
+.surpresa > p{
+    display: none;
+}
+.surpresa:hover > p{ /*hover= pseudoclasse*/
+    display: inline;
+}
+.surpresa:hover  { /* ele é uma classe dependente da primeira classe (funciona com certas condições) */
+    background-color: aqua;
+    
+}
+.zé{
+    height: 100px;
+}
+.zé:hover {
+    height: 1000px;
+}
